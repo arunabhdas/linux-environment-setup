@@ -1,2 +1,2 @@
-xmodmap -e "remove mod4 = Super_L"
-xmodmap -e "add control = Super_L"
+/usr/bin/xmodmap -e "remove mod4 = Super_L"
+/usr/bin/xmodmap -e "add control = Super_L"

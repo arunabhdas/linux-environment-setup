@@ -8,3 +8,6 @@
 Please note that this steps is only necessary for remapping Super to Ctrl
 ==> cp dotfiles/Xmodmap.txt $HOME
 
+3) Ensure ~/.Xmodmap is sourced in .bashrc as follows
+
+==> echo "source ~/.Xmodmap" >> ~/.bashrc
