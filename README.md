@@ -9,7 +9,7 @@
 
 ## 3) Copy .Xmodmap to $HOME
 Please note that this steps is only necessary for remapping Super to Ctrl
-==> cp dotfiles/Xmodmap.txt $HOME
+==> cp dotfiles/Xmodmap.txt $HOME/.Xmodmap
 
 ## 4) Ensure ~/.Xmodmap is sourced in .bashrc as follows
 
