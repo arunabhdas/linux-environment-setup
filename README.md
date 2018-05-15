@@ -1,26 +1,29 @@
 # linux-environment-setup
 
-## 1) Copy .vimrc to $HOME
+## 1) Install vim
+
+==> sudo apt -y update && sudo apt -y install vim
+## 2) Copy .vimrc to $HOME
 
 ==> cp dotfiles/vimrc.txt $HOME
 
-## 2) Copy .Xmodmap to $HOME
+## 3) Copy .Xmodmap to $HOME
 Please note that this steps is only necessary for remapping Super to Ctrl
 ==> cp dotfiles/Xmodmap.txt $HOME
 
-## 3) Ensure ~/.Xmodmap is sourced in .bashrc as follows
+## 4) Ensure ~/.Xmodmap is sourced in .bashrc as follows
 
 ==> echo "source ~/.Xmodmap" >> ~/.bashrc
 
-## 4) Install Java 8
+## 5) Install Java 8
 http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html
 
 
-## 5) Install Android Studio as described here :
+## 6) Install Android Studio as described here :
 https://developer.android.com/studio/install.html
 
 
-## 6) Install VSCode as follows :
+## 7) Install VSCode as follows :
 
 Download VSCode from 
 
