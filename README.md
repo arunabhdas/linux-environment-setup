@@ -13,7 +13,7 @@ Please note that this steps is only necessary for remapping Super to Ctrl
 
 ## 4) Ensure ~/.Xmodmap is sourced in .bashrc as follows
 
-==> echo "source ~/.Xmodmap" >> ~/.bashrc
+==> echo "xmodmap ~/.Xmodmap" >> ~/.bashrc
 
 ## 5) Install Java 8
 http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html
