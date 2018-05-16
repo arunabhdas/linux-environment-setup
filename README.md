@@ -35,3 +35,17 @@ Run the code executable to open Visual Studio Code
 
 (Optional) Create a symbolic link to conveniently run code from the terminal:
 sudo ln -s ~/vscode/VSCode-linux-x64/code /usr/local/bin/code
+
+## 8) Install python2
+
+==> sudo apt install python-minimal
+
+==> python --version
+
+## 9) Install pip
+
+==> sudo apt update
+
+==> sudo apt install python-pip
+
+==> pip --version
